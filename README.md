@@ -28,7 +28,6 @@ hadoop fs -put <filename> /path/to/hdfs
 - Load data into Hive table using:
 LOAD DATA INPATH '/path/to/hdfs' INTO TABLE hive_table_name;
 - Validate data integrity using SELECT queries.
-- Optionally, automate the process with a shell or Python script for future data refreshes.
 
 **Results**
 Following this approach ensures successful data retrieval, storage, and visualization in Hive for better analytics. An optional automation script streamlines future ingestion.
